@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # read csv data
-csv_path = os.getcwd() + '/csv_data/' + 'data_20221005132502.csv'
+csv_path = os.getcwd() + '/csv_datas/' + 'data_20221005132502.csv'
 csv_df = pd.read_csv(csv_path)
 
 data_y1 = csv_df[csv_df.columns[1]]

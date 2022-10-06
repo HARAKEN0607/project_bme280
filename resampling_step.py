@@ -2,7 +2,7 @@ import os
 import csv
 import numpy as np
 
-csv_path = os.getcwd() + '/csv_data/'
+csv_path = os.getcwd() + '/csv_datas/'
 
 file_name = 'data_20221005132502.csv'
 

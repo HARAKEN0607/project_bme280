@@ -4,7 +4,7 @@ import time
 import numpy as np
 import csv
 
-csvpath = os.getcwd() + '/csv_data/'
+csvpath = os.getcwd() + '/csv_datas/'
 
 if not os.path.exists(csvpath):
     os.mkdir(csvpath)

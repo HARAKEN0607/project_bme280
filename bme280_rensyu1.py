@@ -177,7 +177,7 @@ for n in range(0, data_size, 1):
 
 
 # Save CSV file
-csvpath = os.getcwd() + '/csv_original/'
+csvpath = os.getcwd() + '/csv_datas/'
 
 if not os.path.exists(csvpath):
     os.mkdir(csvpath)
