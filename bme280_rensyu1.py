@@ -149,7 +149,7 @@ setup()
 get_calib_param()
 
 # Print data & Create csv data
-time_interval = 1                    # Unit:[s]
+time_interval = 3                    # Unit:[s]
 data_size = 3600
 csv_data = []
 dt_now = datetime.datetime.now()
